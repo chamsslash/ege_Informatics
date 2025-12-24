@@ -1,4 +1,4 @@
-f=open("17.2.txt")
+f=open("dz/17.2.txt")
 a=[]
 for s in f:
     a.append(int(s))
