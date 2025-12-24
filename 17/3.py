@@ -1,4 +1,4 @@
-f=open('17.3.txt')
+f=open('dz/17.3.txt')
 a=[int(i) for i in f]
 res=[]
 for i in range(len(a)-1):
