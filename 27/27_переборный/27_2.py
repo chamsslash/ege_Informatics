@@ -12,7 +12,6 @@ for i in range(len(points)):
         for p1 in points:
             sum_dist+= min(dist(points[i],p1),dist(points[j],p1))
         if sum_dist<min_dist:
-            min_dist>sum_dist
             min_dist=sum_dist
             best_centroids=[points[i],points[j]]
 P_x=sum([x for x,y in best_centroids])/len(best_centroids)
