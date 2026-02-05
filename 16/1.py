@@ -1,0 +1,11 @@
+from functools import lru_cache
+
+
+@lru_cache(None)
+
+def F(n):
+    if n>=2025:
+        return n
+    else:
+        return 2*n+F(n+2)
+print(F(82)-F(81))
