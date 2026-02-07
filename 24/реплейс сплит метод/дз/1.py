@@ -1,4 +1,4 @@
-f=open("дз/Задание 1.txt")
+f=open("Задание 1.txt")
 f=f.readline()
 f=f.replace("-","*").replace("+","*")
 chunks=f.split('*')

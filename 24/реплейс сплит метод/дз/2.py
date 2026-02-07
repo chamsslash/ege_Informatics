@@ -1,4 +1,4 @@
-f=open("дз/Задание 2.txt")
+f=open("Задание 2.txt")
 f=f.readline()
 f=f.replace("-","*").replace("+","*")
 chunks=f.split('*')
@@ -16,5 +16,5 @@ for x in chunks:
     else:
         loader=""
     max_chunks=max(max_chunks,loader,key=len)
-    print(max_chunks)
-    print(len(max_chunks)-1)
+print(max_chunks)
+print(len(max_chunks)-1)
