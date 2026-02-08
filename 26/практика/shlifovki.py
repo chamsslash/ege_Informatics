@@ -1,3 +1,6 @@
+
+
+
 f = open("26.6.txt")
 n = int(f.readline())
 end = []

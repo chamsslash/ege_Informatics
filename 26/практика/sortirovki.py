@@ -11,7 +11,9 @@ for s in f:
 data.sort()
 for start,end in data:
     for num_box in range(k):
-        if boxes[num_box]<start:
+
+        # ячейка освобождается на свлед минуту только
+        if boxes[num_box]+1<start:
             boxes[num_box]=end
             last_box_num=num_box
             count+=1

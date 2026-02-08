@@ -11,3 +11,4 @@ while all!=[]:
             all.remove(box)
     blocks.append(full)
 print(len(blocks),len(blocks[0]))
+# по факту задачка на много гифтов
