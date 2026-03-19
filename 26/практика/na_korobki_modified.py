@@ -11,9 +11,9 @@ for _ in range(kolvo_boxes - kolvo_lentochek):
     x = f.readline().split()
     boxes.append(int(x[0]))
     tapes.append(0)
-paired = list(zip(boxes, tapes))
-paired.sort(reverse=True)
-boxes, tapes = map(list, zip(*paired)) if paired else ([], [])
+# paired = list(zip(boxes, tapes))
+# paired.sort(reverse=True)
+# boxes, tapes = map(list, zip(*paired)) if paired else ([], [])
 gift = []
 for box in boxes:
     if box in tapes and len(gift) == 0:
