@@ -4,6 +4,7 @@ res = 0
 flag=True
 buff=''
 for s in a:
+    # чистка
     for symb in s:
         if symb not in "0123456789+*-":
             break
@@ -13,6 +14,7 @@ for s in a:
             elif sym in'+*':
                 flag=True
                 buff+=sym
+            # для основной(не явл знаком) части строки
             elif flag :
                 buff+=sym
         if buff[0] in '+*':
