@@ -1,0 +1,5 @@
+f=open('24.1.txt')
+data=f.readline().strip()
+data=data.replace('00','0 0')
+data_splitted=data.split()
+print(len(max(data_splitted,key=len)))

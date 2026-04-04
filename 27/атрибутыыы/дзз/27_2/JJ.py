@@ -5,7 +5,7 @@ f.readline()
 pointo=[list(map(int,i.replace(',','.'))) for i in f]
 clusters=[]
 while pointo:
-    clusters.append([pointo])
+    clusters.append([pointo[0]])
     del pointo[0]
     for p in clusters[-1]:
         for p1 in pointo[:]:
