@@ -1,0 +1,12 @@
+print(bin(1023)[2:])
+print(len('1111111111'))
+print(int('0101010101',2))
+print(bin(2047)[2:])
+print(len(f'{bin(2047)[2:]}'))
+print(int('10101010101',2))
+
+print(bin(96)[2:])
+print(int('10011111',2))
+print(bin(1537)[2:])
+print(len('11000000001'))
+print(int('1100000000110',2))
